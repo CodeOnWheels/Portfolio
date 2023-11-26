@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto Mono;
+    color: #777;
+}
+
+html {
+    background-color: beige;
+}
+
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-title {
+    font-family: Agbalumo;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.header-disclaimer {
+    color: white;
+    background-color: black;
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header {
+    background-image: url(img/building1.jpg);
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;;
+    border: 1px solid;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.nav li:hover {
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.nav .active {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.nav a {
+    color: white;
+    text-decoration: nrgba(6, 3, 3, 0.5)
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 4em;
+}
+
+.content-section h2 {
+    color: rgba(166, 131, 86, 1);
+}
+
+.content-section h3 {
+    color: rgba(166, 131, 86, 1);
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #777;
+}
+
+.main-footer a {
+    color: white;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#center {
+    margin: 0px;
+    text-align: center;
+}
+
+.button {
+    padding: 1.2em;
+    background-color: rgba(166, 131, 86, 1);
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: rgba(166, 131, 86, 1);
+    background-color: rgba(0, 0, 0, .25);
+    background-blend-mode: multiply;
+    color: black;
+}
